@@ -1,0 +1,3 @@
+<div class="tagslist">
+    <a href="/p/news" class="active">全部广播</a><a href="/p/group?g=ysstar">影视明星</a><a href="/p/group?g=mstar">音乐明星</a><a href="/p/group?g=ylstar">娱乐名人</a><a href="/p/group?g=xsstar">新生力量</a><a href="/p/group?g=7">体育明星</a><a href="/p/group?g=10">商业名人</a><a href="/p/group?g=whq">文化圈</a><a href="/p/group?g=12">媒体圈</a><a href="/p/group?g=11">IT名人</a><a href="/p/group?g=5">美女团</a><a href="/p/group?g=22">动漫圈</a><a href="/p/group?g=8">冷笑话</a><a href="/p/group?g=28">星座圈</a><a href="/p/group?g=gamezone">游戏圈</a>    <span class="bg"></span>
+</div>

@@ -1,0 +1,1 @@
+<p><a href="/wap">主页 </a> | <a href="/wap/public">大厅</a> | <a href="/wap/user/hot">名人</a> | <a href="/wap/search/">搜索</a> | <a href="/wap/login/logout">退出</a> </p>

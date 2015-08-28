@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* 上墙样式 */
+html { min-height:100%;}
+body { margin:0; padding:0; overflow:hidden; text-align:center;background:url(../images/wall.jpg) repeat-x #71CEF0;}
+a img { border:0;}
+.wrapper { width:910px; margin:0 auto; text-align:left;width:920px\9;}
+.head { height:90px;display:inline-block;}
+.head .logo{float:left;line-height:90px;margin-left:0 10px;vertical-align:middle; display: table-cell;font-size:78px;width:203px;}
+.head .logo img{vertical-align:middle;_ azimuth:expression(
+this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = this.getAttribute("resource")+"resource/images/0.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);}
+.head .banner{width:655px;height:55px;margin:15px 0 0 20px;font:20px/55px bold;font-family:微软雅黑;font-weight:bold;color:#fff;text-align:center;border:1px solid rgba(255,255,255,.5);float:left;border-width:1px 0;background-image: -webkit-gradient(linear,0 50%,50% 100%,color-stop(0, rgba(80,175,194,0)),color-stop(0.5, rgba(255,255,255,.3)),color-stop(1, rgba(141,174,214,0)));background:-moz-linear-gradient(left center,rgba(255,255,255,0),rgba(255,255,255,0.3),rgba(255,255,255,0));
+background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 255, 255, 1)), to(rgba(200, 200, 200, 1)));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+line-height:50px;overflow:hidden;
+}
+.head .banner strong{font-size:28px;background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 255, 0, 1)), to(rgba(255, 150, 0, 1)));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;color:#fe0;}
+.head .banner strong,.head .banner label{vertical-align:middle;}
+.wall { border-radius:5px; -webkit-box-shadow:0 0 10px #000;-moz-box-shadow:0 0 10px #000; background:rgba(255,255,255,.3); min-height:500px; text-align:left; margin-bottom:100px;background:url(../images/wallul.png) -920px 0 repeat-y\9;margin-bottom:0\9;}
+.wall ul { margin:5px 15px 10px; padding:0; list-style:none; display:inline-block;margin:0 20px 0\9;;}
+.wall li { margin:10px 0 0; border:1px solid #fff; padding:20px 0; display:inline-block; width:878px;  clear:both; background:url(../images/wallli.png);border-radius:5px;}
+.wall li .uhead { border:3px solid #fff; display:inline-block; float:left; line-height:0; margin:0 20px;}
+.walltop{background:url(../images/wallul.png) 0 0 no-repeat\9;height:15px;font-size:1px;_ filter: chroma(color =#D8E9EC);}
+.wallbottom{background:url(../images/wallul.png) 0 -15px no-repeat\9;height:15px;margin-bottom:100px\9;font-size:1px;_ filter: chroma(color =#D8E9EC);}
+.tbody { color:#fff;font-size:36px; font-family:微软雅黑; width:695px; float:left; line-height:150%; }
+.tbody a { color:#D0FC9B; text-decoration:none; }
+.tbody img { display:block; margin-top:10px;}
+.icon_vip {width: 15px;height: 15px;background: url(../images/t_icons.gif) -1px -1px no-repeat;width: 16px;
+height: 16px;
+vertical-align: middle;
+display: inline-block;
+zoom: 1;
+font-size: 0;}

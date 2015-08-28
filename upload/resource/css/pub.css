@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 全局样式 */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,p,blockquote{margin:0;padding:0;}
+body {min-height:100%;font:12px Tahoma,Arial;text-align:center;}
+body:lang(en){font-family:Arial;}
+table {border-collapse:collapse;border-spacing:0;}
+ul,ol,li{list-style:none;}
+em{font-style:normal;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+a img{border:0;}
+input,label{vertical-align:middle;}
+.gray{color:gray;}
+.hide{display:none;}
+.vbottom{vertical-align:bottom;}
+.vtop{vertical-align:top;}
+.vmiddle{vertical-align:middle;}

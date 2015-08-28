@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* ie6 hack css #D8E9EC*/
+html{background-image:url(about:blank);background-attachment:fixed;}
+.header .pagenav a em{margin-left:55px;}
+.banner{height:expression(this.scrollHeight>74?'':74);display:block;}
+.content{clear:both;}
+.usernav .fleft a img,.usernav2 .fleft a img{azimuth:expression(
+this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = this.getAttribute("resource")+"resource/images/0.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);}
+.usernav .fleft a{zoom:1;height:36px;background:url(about:blank);}
+.usernav2 .fleft a{zoom:1;display:inline;float:left;}
+.vmenu ul li{border-bottom:1px solid #fff;}
+.navbar a em{filter: chroma(color = red);border-color: red red #fff red;}
+.footcontrol{position:absolute;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-36));}
+table .userlist3 li{margin:10px 5px 0 8px;}
+.sethead .shangchuan input.upload{border:1px solid darkgray;vertical-align:top;}
+.sendbox .actionlist div a.zhaopiantxt{height:16px;}
+.tagsbox{zoom:1;}
+.pagerwrapper .nextscreen .stext label{margin-top:8px;height:25px;line-height:25px;}
+.textlist{zoom:1;}
+.tmain .tbottomright .more ul{width:70px;background:none;zoom:0;}
+.tmain .tbottomright .more:link,.tmain .tbottomright .more:visited{overflow:hidden;}
+.tmain .tbottomright .more:hover ul{background:#fff;display:block;}
+.tmain .tbottomright .more:hover{overflow:visible;}
+.tmain .tbody{overflow:hidden;}
+.ucard .uinfo ul li,.ucard .uinfo ul li a{display:inline;zoom:1;}
+.userlist5 li em{position:relative;top:1px;}
+.userlist6 li .fright{margin-left:0;}
+.profile .info span a{width:110px;}
+.moduletitle input{position:relative;margin-top:12px;top:-6px;}
+.moduletitle5{height:20px;padding-top:10px;}
+.wrapper .contentleft{overflow:hidden;}
+.replylist li{background:#fff;display:inline;zoom:1;width:408px;}
+.replylist li .alarm{display:inline;}
+.select ul{background:#fff;}
+.select ul li{clear:both;height:22px;line-height:22px;margin-left:-16px;}
+.select ul li a{float:left;width:100%;}
+.tmain .ttouxiang:hover{position:relative;z-index:1;}
+.tmain .ttouxiang:hover img{position:relative;z-index:1;}
+.tmain .ttouxiang_hover,.tmain .ttouxiang_hover img{position:relative;z-index:1;}
+.tmain .ttouxiang{start:expression(function(o){if(o.getAttribute('ie6')!=null){return false;}else{o.setAttribute('ie6','true');o.onmouseover=function(){this.className=this.className+" ttouxiang_hover";};o.onmouseout=function(){this.className="ttouxiang";}}}(this));}
+.contentright{overflow-x:hidden;}
+.userlist5 li .follow{display:inline;}
+.userlist5 li.active .username{width:70px;overflow:hidden;}
+.vipinfo h2{overflow-y:hidden;}
+.setform{display:inline;zoom:1;}
+.input_text{width:200px;padding:5px 8px;}
+.infobox{height:320px;}

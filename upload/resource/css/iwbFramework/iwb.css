@@ -1,0 +1,222 @@
+/*发视频输入框*/
+.iwbAddMusic{width: 350px;background:#fff;display:none;position:absolute;padding: 20px 10px 10px 10px;text-align:left;z-index:999;font-size:12px;border: 1px solid #ADADAD;-webkit-box-shadow: #CAC8C8 1px 1px 2px;-moz-box-shadow: #CAC8C8 1px 1px 2px;box-shadow: #CAC8C8 1px 1px 2px;}
+.iwbAddMusic .tip{color:#999;}
+.iwbAddMusic .musicFields{margin-top:8px;}
+.iwbAddMusic .musicFields input{float:left;}
+.iwbAddMusic .musicFields .musicAddr{width:280px;height:22px;padding:2px 4px 2px 4px;background:url("../../images/icons.gif") repeat-x 0px -110px;border:1px solid #7f9db9;line-height:22px\9;font-family:Tahoma,Arial;outline:none;}
+.iwbAddMusic .musicFields .musicSubmit{height:28px;line-height:24px\9;margin-left:5px;}
+.iwbAddMusic .musicLoading{background:url("../../images/loading16.gif") no-repeat;height:16px;display:none;color:#F47700;line-height:16px;margin-top:8px;text-indent:20px;}
+.iwbAddMusic .musicInfo{height:16px;display:none;color:#F47700;line-height:16px;margin-top:8px;}
+.iwbAddMusic .musicInfo a{color:#2B4A78;}
+
+/*发视频输入框*/
+.iwbAddVideo{width: 350px;background:#fff;display:none;position:absolute;padding: 20px 10px 10px 10px;text-align:left;z-index:999;font-size:12px;border: 1px solid #ADADAD;-webkit-box-shadow: #CAC8C8 1px 1px 2px;-moz-box-shadow: #CAC8C8 1px 1px 2px;box-shadow: #CAC8C8 1px 1px 2px;}
+.iwbAddVideo .tip{color:#999;}
+.iwbAddVideo .videoFields{margin-top:8px;}
+.iwbAddVideo .videoFields input{float:left;}
+.iwbAddVideo .videoFields .videoAddr{width:280px;height:22px;padding:2px 4px 2px 4px;background:url("../../images/icons.gif") repeat-x 0px -110px;border:1px solid #7f9db9;line-height:22px\9;font-family:Tahoma,Arial;outline:none;}
+.iwbAddVideo .videoFields .videoSubmit{height:28px;line-height:24px\9;margin-left:5px;}
+.iwbAddVideo .videoLoading{background:url("../../images/loading16.gif") no-repeat;height:16px;display:none;color:#F47700;line-height:16px;margin-top:8px;text-indent:20px;}
+.iwbAddVideo .videoInfo{height:16px;display:none;color:#F47700;line-height:16px;margin-top:8px;}
+.iwbAddVideo .videoInfo a{color:#2B4A78;}
+
+/*对话框*/
+.iwbAutoCloseLayer .close{position:absolute;top:10px;right:10px;}
+/*重写样式*/
+html,body{_display:block;_height:100%;padding:0px;margin:0px;}
+
+/*弹出层*/
+.iwbDialogModalBg{position:fixed;top:0px;_position:absolute;_top:expression(eval(document.documentElement.scrollTop));left:0px;background:#000;width:100%;height:100%;z-index:1000;-moz-opacity:0;opacity:0;filter:Alpha(opacity=0);}
+.iwbDialogModalBg iframe{width: 100%;height: 100%;filter:Alpha(opacity=0);border:0;}
+.iwbDialog{position:absolute;top:0px;    /* js指定 */left:0px;   /* js指定 */width:0px;  /* js指定 */height:0px; /* js指定 */z-index:1001;font-family: "Microsoft YaHei",SimSun;font-size: 14px;}
+.iwbDialog .iwbDialogBg{width:100%;height:100%;background:#9c9c9c;padding:4px;padding-top:14px;border-radius:5px;opacity:0.8;}
+.iwbDialog .iwbDialogBg iframe{width: 100%;height: 100%;filter:Alpha(opacity=0);border:0;}
+.iwbDialog .iwbDialogMain{position:absolute;top:4px;left:4px;padding-top:10px;width: 100%;height: 100%;background: #fff;overflow:hidden;}
+.iwbDialog a.close{position:absolute;top:15px;right:10px;}
+
+/*信息提示框*/
+.iwbDialog .msgbox {padding-top:10px;}
+.iwbDialog .msgbox .msgicon{width:50px;height:0px; /*js指定*/float:left;position:relative;}
+.iwbDialog .msgbox .msgtext{float:left;width:140px;text-align:left;}
+.iwbDialog .msgbox .msgicon .icon{position:absolute;width:20px;height:20px;right:5px;top:0px;overflow:hidden;background:url("../../images/icons.gif") no-repeat -20px -140px;}
+.iwbDialog .msgbox .msgicon .icon.success{background-position:0px -140px;}
+
+/*选择确认框*/
+.iwbDialog .confirmbox .confirmtext{text-align:center;}
+.iwbDialog .confirmbox .confirmbtns{text-align:center;margin-top:5px;}
+.iwbDialog .confirmbox .confirmbtns button{font-family:Tahoma;font-size:12px;padding:1px 6px;line-height:20px;}
+.iwbDialog .confirmbox .confirmbtns button.ok{margin-right:8px;}
+.iwbDialog .confirmbox .confirmbtns button.cancel{margin-left:8px;}
+
+/*激活flash视频播放器按钮*/
+.iwbFlashVideo{display:block;min-height:40px;width:136px;/*height:104px;*/position:relative;}
+.iwbFlashVideo .videoPreview{background:#f9f9f9;border:1px solid #e5e5e5;padding:4px;}
+.iwbFlashVideo em{position:absolute;bottom:20px;left:10px;background:url("../../images/playvideo.png");width:24px;height:18px;}
+
+/*播放器外观*/
+.iwbFlashVideoPlayer{width:100%;background:transparent;}
+.iwbFlashVideoPlayer .videoPlayerToolbar{width:98%;margin:0 auto;overflow:hidden;padding:5px;border-top:1px solid #e5e5e5;}
+.iwbFlashVideoPlayer a{text-decoration:none;font-size:12px;}
+.iwbFlashVideoPlayer a:hover{text-decoration:underline;}
+.iwbFlashVideoPlayer .videoCollpase{float:left;background:url("../../images/icons.gif") no-repeat 0px -45px;padding-left:20px;cursor:pointer;cursor:hand;}
+.iwbFlashVideoPlayer .videoCollpase a{color:#999;}
+.iwbFlashVideoPlayer .videoLink{float:right;}
+.iwbFlashVideoPlayer .videoLink a{color:#2B4A78;}
+
+/*朋友选择器*/
+.iwbFriendSelector{
+    width:242px;
+    position:absolute;
+    z-index:1999;
+    border:1px solid #adadad;
+    overflow-x:hidden;
+    background:white;
+    font-family:Tahoma,Arial;
+    font-size:12px;
+    display:none;
+}
+.iwbFriendSelector .tips{
+    margin:0 1px 1px;
+    padding: 5px 8px 4px;
+    color: #999;
+    background:whiteSmoke;
+}
+.iwbFriendSelector .loading{
+    background:url("../../images/loading16.gif") no-repeat;
+    height:16px;
+    line-height:16px;
+    text-indent:20px;
+	text-align:left;
+}
+.iwbFriendSelector .friendSearch{
+    height:31px;
+    overflow:hidden;
+    margin:0px 1px;
+    padding:0px 6px;
+    padding-bottom:4px;
+    border-bottom:1px solid #dee4e7;
+    background:url("../../images/icons.gif") repeat-x 0px -160px;
+}
+.iwbFriendSelector .friendSearch .inputWrapper{
+    width:192px;
+    height:20px;
+    margin-top:6px;
+    float:left;
+    background:url("../../images/icons.gif") repeat-x 0px -110px;
+    border:1px solid #7f9db9;
+}
+.iwbFriendSelector .friendSearch .inputWrapper input{
+    width:166px;
+    height:18px;
+    border:0;
+    padding:0;
+    margin:0;
+    background:url("../../images/icons.gif") repeat-x 0px -110px;
+    padding-left:3px;
+    vertical-align:top;
+    outline:none;
+    float:left;
+}
+.iwbFriendSelector .friendSearch .inputWrapper .searchBtn{
+    width:20px;
+    height:20px;
+    background:url("../../images/icons.gif") no-repeat;
+    float:right;
+}
+.iwbFriendSelector .friendSearch .inputWrapper .searchBtn.search{
+    background-position:-17px -203px;
+}
+.iwbFriendSelector .friendSearch .inputWrapper .searchBtn.clear{
+    background-position:6px -205px;
+}
+.iwbFriendSelector .friendDisplay {
+    position:relative;
+}
+.iwbFriendSelector .friendDisplay ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    font-size:12px;
+    font-family:Tahoma,Arial;
+    clear:both;
+    display:none;
+    overflow-x:hidden;
+    overflow-y:auto;
+    height:20px;
+}
+.iwbFriendSelector .friendDisplay ul li{
+    height: 20px;
+    line-height:20px;
+    padding: 0px 5px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-align:left;
+    cursor:pointer;
+    cursor:hand;
+}
+.iwbFriendSelector .friendDisplay ul li.highlight{
+    background:#D2E9FA;
+}
+
+/*图片预览器外观*/
+.iwbImagePreview{position:absolute;top:0px;left:0px;padding:3px;display:none;border:1px solid #e7e7e7;background:#f7fbfc;display:block;z-index:999;}
+.iwbImagePreview img{display:block;}
+.iwbImagePreview .previewMask{position:absolute;left:10px;bottom:10px;width:24px;height:18px;background:url("../../images/playvideo.png") no-repeat;}
+
+/*激活图片查看器的图片*/
+.iwbImageView{position:relative;}
+.iwbImageView .imageLoading{position:absolute;left:0px;top:0px;background:url("../../images/spacer.gif");display:none;}
+.iwbImageView .imageLoadingIcon{position:absolute;width:100%;height:100%;background:url("../../images/loading16.gif") no-repeat 50% 50%;}
+.iwbImageView .imageViewSmall{display:block;padding:3px;background:#fff;font-size:0px;border:1px solid #e7e7e7;cursor:url("../../cursor/cursor_zoom.cur"),url("../../cursor/cursor_zoom.cur"),auto;}/* IE cursor不支持相对路径 */
+
+/*图片查看器外观*/
+.iwbImageViewControl{width:100%;height:100%;text-decroration:none;font-size:0;border:1px solid #e7e7e7;overflow:hidden;}
+.iwbImageViewControl .imageViewToolbar{font-size:12px;overflow:hidden;padding:5px;}
+.iwbImageViewControl .imageViewToolbar a{color:#2B4A78;text-decoration:none;display:block;float:left;height:20px;line-height:20px;background:url("../../images/icons.gif") no-repeat;text-indent:20px;}
+.iwbImageViewControl .imageViewToolbar a:hover{text-decoration:underline;}
+.iwbImageViewControl .imageViewToolbar b{display:block;font-weight:normal;float:left;height:20px;line-height:20px;padding:0px 4px;color:#d1d1d1;}
+.iwbImageViewControl .imageViewToolbar a.rotateLeft{background-position:0px -2px;}
+.iwbImageViewControl .imageViewToolbar a.rotateRight{background-position:0px -22px;}
+.iwbImageViewControl .imageViewToolbar a.viewOriginalImage{background-position:4px -65px;}
+.iwbImageViewControl .imageViewToolbar .imageViewToolbarLeft{float:left;}
+.iwbImageViewControl .imageViewToolbar .imageViewToolbarRight{float:right;}
+.iwbImageViewControl .imageViewControlBox{margin:0 auto;cursor:url("../../cursor/cursor_minify.cur"),url("../../cursor/cursor_minify.cur"),auto;}
+
+/*音乐播放皮肤*/
+.iwbMusicPlayerBg{background:url("../../images/musicplayer.gif")}
+.iwbMusicPlayerBtn{width:15px;height:15px;display:block;}
+
+/*激活播放组件按钮*/
+.iwbMusicControl{clear:both;overflow:hidden;}
+.iwbMusicPlayerInvokeBtn{background-position:-113px -24px;float:left;}
+.iwbMusicPlayerInvokeBtn.hover{background-position:-135px -24px;}
+.iwbMusicInfo{display:block;float:left;font-size:12px;line-height:100%;margin-left:6px;}
+
+/*播放组件*/
+.iwbMusicPlayerWrapper{width:159px;height:20px;font-size:12px;color:#2B4A78;position:relative;}
+.iwbMusicPlayerWrapper .iwbMusicPlayerPlayBtn{background-position:0px -24px;float:left;margin:2px 0px 0px 2px;}
+.iwbMusicPlayerWrapper .iwbMusicPlayerPlayBtn:hover{background-position:-19px -24px;}
+.iwbMusicPlayerWrapper .iwbMusicPlayerPauseBtn{background-position:-38px -24px;float:left;margin:2px 0px 0px 2px;}
+.iwbMusicPlayerWrapper .iwbMusicPlayerPauseBtn:hover{background-position:-57px -24px;}
+.iwbMusicPlayerWrapper .iwbMusicPlayerCloseBtn{background-position:-76px -24px;float:right;margin:2px 2px 0px 0px;}
+.iwbMusicPlayerWrapper .iwbMusicPlayerCloseBtn:hover{background-position:-95px -24px;}
+.iwbMusicPlayerWrapper .iwbMusicPlayerInfo{position:absolute;top:0;left:25px;width:110px;height:20px;line-height:20px;overflow:hidden;} 
+
+/*QQ表情选择器*/
+.iwbQQFace{width: 436px;background:#fff;position:absolute;display:none;padding: 30px 10px 10px 10px;z-index:1999;border: 1px solid #ADADAD;-webkit-box-shadow: #CAC8C8 1px 1px 2px;-moz-box-shadow: #CAC8C8 1px 1px 2px;box-shadow: #CAC8C8 1px 1px 2px;}
+.iwbQQFace .qqFaceBox{width:435px;height:203px;position:relative;margin-top:5px;background:url('../../images/qqface.gif') no-repeat;border-top:1px solid #dfe6f6;border-left:1px solid #dfe6f6;}
+.iwbQQFace .qqFaceBox a{width:28px;height:28px;display:block;float:left;border-bottom:1px solid #dfe6f6;border-right:1px solid #dfe6f6;}
+.iwbQQFace .qqFacePreview{width:53px;position:absolute;top:0px;display:none;background:#008AFF;border: 1px solid #DFE6F6;padding:1px;}
+.iwbQQFace .qqFacePreviewImg{height:33px;background:#fff;text-align:center;padding-top:5px;}
+.iwbQQFace .qqFacePreviewText{height:16px;line-height:16px;background:#f1f1f1;color:#999;text-align:center;font-size:12px;}
+
+/*幻灯片*/
+.iwbSlideware{position:relative;overflow:hidden;}
+.iwbSlideware .close{position:absolute;top:10px;right:10px;z-index:2;}
+.iwbSlideware .slidersbox{position:relative;width:9999px;z-index:1;overflow:hidden;}
+.iwbSlideware .slidersbox .sliders {position:relative;zoom:1;}
+.iwbSlideware .slidersbox .sliders a{display:block;float:left;font-size:0;text-align:right;}
+.iwbSlideware .slidersbox .sliders a img{border:0;}
+.iwbSlideware .silidercontrols{clear:left;background:url("../../images/icons.gif") repeat-x 0px -250px;;margin:0 auto;width:80px;/*js指定*/height:10px;margin-top:10px;}
+.iwbSlideware .silidercontrols a{display:block;float:left;width:10px;margin:0px 5px;_display:inline;height:100%;background:url("../../images/icons.gif") no-repeat -10px -230px;}
+.iwbSlideware .silidercontrols a.selected{background-position:0px -230px;}
